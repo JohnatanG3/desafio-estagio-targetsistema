@@ -24,7 +24,7 @@ def processar_faturamento(arquivo_json):
         "dias_acima_da_media": dias_acima_da_media
     }
 
-arquivo_json = 'faturamento.json'
+arquivo_json = 'dados.json'
 
 resultados = processar_faturamento(arquivo_json)
 
